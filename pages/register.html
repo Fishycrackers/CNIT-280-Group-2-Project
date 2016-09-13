@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<! link to CSS for page design and beauty>
+		<link rel="stylesheet" type="text/css" href="../standardDesign.css"/>
+		<link rel="stylesheet" type="text/css" href="register.css"/>
+		<title> User registration </title>	
+	</head>
+	<body>
+		<! Header section>
+		<div class="header">
+		<a href="../index.html">Back</a>
+		<nav class="navigationBar">
+		<a href="../index.html">Main Page</a>
+		</nav>
+		</div>
+		<! Main content section>
+		<div class="main">
+			
+			
+			<! Section for inputting registration information>
+			<form action="register/register.php" method="post">
+				<table>
+				<tr><td>First Name:</td> <td><input type="text" name="first_name"></td></tr>
+				
+				<tr><td>Last Name:</td> <td><input type="text" name = "last_name"></td></tr>
+				<tr><td>E-mail:</td> <td><input type="text" name="email"></td></tr>
+				<tr><td>Manuscript:</td><td> <input type="file"  name="manuscript" id="uploadedManuscript"></td></tr>
+				</table>
+				<input type="submit">
+			</form>
+		</div>
+		<! Footer section>
+		<div class="footer">
+		This is a footer
+		</div>
+	</body>
+</html>

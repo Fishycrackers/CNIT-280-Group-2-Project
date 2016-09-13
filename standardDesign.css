@@ -1,0 +1,99 @@
+/*
+
+Group 2 Fall 2016
+
+CNIT 280000, Purdue University, West Lafayatte, IN 47906
+
+*/
+
+/*
+This is the standard stylesheet which is to be used on every webpage in the webapplication on the Kaitaia Collective System
+
+This style sheet defines standard styles to be used by all webpages to create a basic layout
+
+*/
+/*	Set style of the header in all webpages		*/
+.header {
+	/*	Set size of box	and position	*/
+
+	height: 100;
+	margin: 10pt;
+	/*	Set style of box	*/
+	background-color: #c2ffb9;
+	
+	/*	Set border style	*/
+	border-style: solid;
+	border-width: 2pt;
+	border-color: #009B09;
+}
+/*	Set style of the navigation bar in all webpages		*/
+.navigationBar {
+	/*	WARNING: TO SET LINK STYLES, SEE "nav a" STYLES IN THIS CSS FILE	*/
+	
+	/*	Set size and margin of box		*/
+	margin: 5pt;
+	padding: 5pt;
+	top: 10px;
+	padding-top: 10px;
+	
+	/*	Set Text style		*/
+	text-align: left;
+	color: #FFD800;
+	
+	vertical-align: middle;
+	
+	/*	Set style of navigation bar		*/
+	background-color: black;
+	
+
+}
+/*	Set style of links within the main navigation bar		*/
+nav a {
+	color: #FFD800;
+	background-color: black;
+	margin: 2pt;
+}
+
+nav a:hover {
+	color: red;
+	background-color: black;
+	margin: 2pt;
+}
+
+
+
+/*	Set style of the main content box in all webpages	*/
+.main {
+	/*	Set size of box		*/
+
+	height: 100;
+	margin: 10pt;
+	background-color: #c2ffb9;
+	padding: 10pt;
+	
+	/*	Set style of border		*/
+	border-style: solid;
+	border-width: 2pt;
+	border-color: #009B09;
+	
+}
+
+/*	Set style of all footer boxes in all webpages		*/
+.footer {
+	/*	Set size of box	and position	*/
+
+	height: 100;
+	margin: 10pt;
+
+
+	/*	Set style of box		*/
+	background-color: #c2ffb9;
+	
+	/*	Set style of border		*/
+	border-style: solid;
+	border-width: 2pt;
+	border-color: #009B09;
+}
+
+
+
