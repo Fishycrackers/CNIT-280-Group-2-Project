@@ -3,6 +3,11 @@ Group Members: Anusha, Colleen Denunzio, Michael Skvarek, Jazlyn Graham, Yung Ha
 
 This is the Github repo for out project, so we can collaborate and shit, assuming we decide to use github for this.
 
+In case you dont know how to use Github, I can tell you the following:
+I have no idea what I'm doing either!!!
+
+That being said, I have figured out that, to update the files within your own laptop, you can commit them to a branch using the github desktop application. If you want to push those same updates to the github server hosted at github.com rather than only have those changes on your own device, you need to hit the sync button in the top right corner and it will update that webpage and change everything for everyone. Thats about all I know for now.
+
 Verion numbers: vxxx.yyy.zzz
 Small changes mean an increment in zzz
 Medium changes mean an increment in yyy
